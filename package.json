@@ -1,0 +1,30 @@
+{
+  "name": "discordbot",
+  "version": "0.0.1",
+  "description": "DiscordBot Music for Learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pekky-Co-Ltd/DiscordBot.git"
+  },
+  "keywords": [
+    "Pekky"
+  ],
+  "author": "Pekky Developer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Pekky-Co-Ltd/DiscordBot/issues",
+    "email": "me@opecgame.in.th"
+  },
+  "homepage": "https://github.com/Pekky-Co-Ltd/DiscordBot#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "discord.js": "^13.6.0",
+    "erela.js": "^2.3.3"
+  }
+}
